@@ -1,0 +1,19 @@
+[project]
+name = "ofx-tools"
+version = "0.1.0"
+description = "Ferramentas para manipulação e divisão de arquivos OFX"
+requires-python = ">=3.10"
+authors = [{ name = "Gabriel Barros" }]
+
+dependencies = [
+    "ofxtools",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
