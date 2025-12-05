@@ -1,0 +1,159 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 SISBB - Sistema de Informações Banco do Brasil                 
+04/12/2025                       Auto-Atendimento                       15:22:25
+                           Fatura do Cartão de Crédito                          
+ 
+ 
+Cliente         : GABRIEL B RODRIGUES              
+Nr.Cartão       : 6550.****.****.7799         
+Modalidade      : OUROCARD ELO GRAFITE ESTILO      
+ 
+Vencimento      : 10.01.2025          
+Total da fatura : R$ 2.069,14       
+Pagamento mínimo: R$ 310,37         
+ 
+DEMONSTRATIVO
+--------------------------------------------------------------------------------
+Data     Transações                             País        Valor R$   Valor US$
+--------------------------------------------------------------------------------
+                                                     
+ 
+         1 - GABRIEL B RODRIGUES                     
+                                                     
+         SALDO FATURA ANTERIOR                  BR          5.346,90        0,00
+                                                     
+ 
+         Pagamentos/Créditos                         
+10.12.2024PGTO DEBITO CONTA 3836 000000008  200211           -5.346,90        0,00
+                                                     
+ 
+         Educação                                    
+26.11.2024PG TEC CONCURSOS        551197024883 BR               39,90        0,00
+                                                     
+ 
+         Restaurantes                                
+27.11.2024Wizmart                RIO DE JANEIR BR                6,99        0,00
+19.11.2024YOGOBERRY FLAMENGO     RIO DE JANEIR BR               13,00        0,00
+27.11.2024TRIBUNAL RESTAURANTE   RIO DE JANEIR BR               59,38        0,00
+28.11.2024FEIJAO                 RIO DE JANEIR BR               53,23        0,00
+28.11.2024Wizmart                RIO DE JANEIR BR                6,99        0,00
+28.11.2024DanielTorresCosme      RIO DE JANEIR BR               38,00        0,00
+30.11.2024MAYA CAFE DELICATESSEN RIO DE JANEIR BR               66,00        0,00
+30.11.2024IFD FBRANDS PARTICIPAC OSASCO        BR               37,78        0,00
+02.12.2024BAR E RESTAURANTE DOCI RIO DE JANEIR BR               24,34        0,00
+02.12.2024Wizmart                RIO DE JANEIR BR                6,99        0,00
+02.12.2024VBBR CONVENIENCIA S    RIO DE JANEIR BR                3,99        0,00
+04.12.2024FeijaoGastronomia      RIO DE JANEIR BR               78,60        0,00
+04.12.2024ifood   IFD BAIXO ICA  Vila Yara Osa BR               42,90        0,00
+07.12.2024IFD IFOOD CLUB         JUNDIAI       BR                5,95        0,00
+08.12.2024JOAQUINA BAR E REST    RIO DE JANEIR BR              151,90        0,00
+08.12.2024IFD NAMAJO BOTAFOGO FO OSASCO        BR               39,90        0,00
+                                                     
+ 
+         Saúde                                       
+09.12.2024FARMACIA INTERFARMA    RIO DE JANEIR BR               11,00        0,00
+09.12.2024RAIA1940               RIO DE JANEIR BR              147,48        0,00
+                                                     
+ 
+         Serviços                                    
+01.12.2024ASSAI ATACADISTA       RIO DE JANEIR BR              298,43        0,00
+02.12.2024PARAFUSOS SIAM         RIO DE JANEIR BR               33,90        0,00
+03.12.2024BARBEARIA DOM HELIO    RIO DE JANEIR BR               59,90        0,00
+                                                     
+ 
+         Supermercados                               
+07.12.2024PRINCESA AUTO S DE COM RIO DE JANEIR BR               21,01        0,00
+08.12.2024PRINCESA AUTO S DE COM RIO DE JANEIR BR               22,63        0,00
+                                                     
+ 
+         Transporte                                  
+27.11.2024Uber    UBER    TRIP   Sao Paulo     BR                9,91        0,00
+02.12.2024Uber UBER  TRIP HELP UBSAO PAULO     BR                9,98        0,00
+04.12.2024Uber    UBER    TRIP   Sao Paulo     BR               29,95        0,00
+04.12.2024Uber    UBER    TRIP   Sao Paulo     BR               96,51        0,00
+05.12.2024Uber UBER  TRIP HELP UBSAO PAULO     BR               96,94        0,00
+08.12.2024Uber    UBER    TRIP   Sao Paulo     BR               21,06        0,00
+                                                     
+ 
+         Vestuário                                   
+30.11.2024SEBRA CONFEC LTDA      RIO DE JANEIR BR              519,60        0,00
+                                                     
+ 
+         Viagens                                     
+30.11.2024METRO RJ               RIO DE JANEIR BR               15,00        0,00
+                                                     
+ 
+         SubTotal                                           2.069,14        0,00
+                                                     
+ 
+         Total                                              2.069,14        0,00
+ 
+ 
+RESUMO EM REAL
+--------------------------------------------------------------------------------
+   Saldo      Pagamento/    Compras/       Total     Lim. extra         Saldo   
+  Anterior     Créditos     Débitos          R$       utilizado      Atual - R$ 
+--------------------------------------------------------------------------------
+  5.346,90 -  -5.346,90 +   2.069,14 =    2.069,14 -       0,00 =       2.069,14
+--------------------------------------------------------------------------------
+ 
+RESUMO EM DÓLAR
+--------------------------------------------------------------------------------
+  Compras/     Outros                      Saldo       Taxa de         Saldo    
+   Saques      débitos      Créditos      Atual U$    conversão      convertido 
+--------------------------------------------------------------------------------
+      0,00 -       0,00 +       0,00 =        0,00   X   0,0000 =           0,00
+--------------------------------------------------------------------------------
+ 
+ 
+LIMITES - R$
+--------------------------------------------------------------------------------
+Total para transações à vista        : 50.000,00
+Saques                               : 50.000,00
+(Incluido no total transação à vista)
+Total para transações parceladas     :    0,00
+Crediário                            : 115.459,00
+ 
+ 
+ENCARGOS FINANCEIROS - R$              1         2
+--------------------------------------------------------------------------------
+Crédito Rotativo :                 12,27     14,16
+Crédito Parcelado:                  3,64     10,21
+Permanência      :                  1,00      1,00
+Multa            :                  2,00      2,00
+1. Para o periodo %am         
+2. Máximo próximo periodo %am 
+ 
+ 
+PONTO PRA VOCÊ/LIVELO
+--------------------------------------------------------------------------------
+    Pontuação acumulada Até 24.12.2024 :  24.838
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

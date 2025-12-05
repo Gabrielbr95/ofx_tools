@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 SISBB - Sistema de Informações Banco do Brasil                 
+04/12/2025                       Auto-Atendimento                       15:19:28
+                           Fatura do Cartão de Crédito                          
+ 
+ 
+Cliente         : GABRIEL B RODRIGUES              
+Nr.Cartão       : 4984.****.****.5460         
+Modalidade      : OUROCARD PLATINUM ESTILO VISA    
+ 
+Vencimento      : 10.01.2025          
+Total da fatura : R$ 4.101,50       
+Pagamento mínimo: R$ 615,22         
+ 
+DEMONSTRATIVO
+--------------------------------------------------------------------------------
+Data     Transações                             País        Valor R$   Valor US$
+--------------------------------------------------------------------------------
+                                                     
+ 
+         1 - GABRIEL B RODRIGUES                     
+                                                     
+         SALDO FATURA ANTERIOR                  BR          1.527,13        0,00
+                                                     
+ 
+         Pagamentos/Créditos                         
+10.12.2024PGTO DEBITO CONTA 3836 000009800  200211           -1.527,13        0,00
+                                                     
+ 
+         Serviços                                    
+28.11.2024Wellhub Gympass BR GympSao Paulo     BR               59,90        0,00
+05.12.2024NETFLIX.COM            SAO PAULO     BR               72,80        0,00
+24.12.2024Wellhub Gympass BR GympSao Paulo     BR               59,90        0,00
+                                                     
+ 
+         Outros lançamentos                          
+27.11.2024DL*GOOGLE Disney       SAO PAULO     BR               43,90        0,00
+07.12.2024DL*GOOGLE Mullva       SAO PAULO     BR               26,99        0,00
+14.12.2024AIRALO                 SINGAPORE     SG               31,44        0,00
+         *** 5,00 DOLAR AMERICANO,                   
+         Cotação do Dólar de 14/12: R$ 6,2816        
+16.12.2024IOF - COMPRA NO EXTERIOR                               1,37        0,00
+17.12.2024DL*GOOGLE Google       SAO PAULO     BR                7,99        0,00
+18.12.2024AIRALO                 SINGAPORE     SG              105,85        0,00
+         *** 16,50 DOLAR AMERICANO,                  
+         Cotação do Dólar de 18/12: R$ 6,4152        
+19.12.2024IOF - COMPRA NO EXTERIOR                               4,63        0,00
+                                                     
+ 
+         SubTotal                                             277,48        0,00
+                                                     
+ 
+         2 - ANA CAROLINA DE ABR                     
+                                                     
+ 
+         Restaurantes                                
+09.12.2024YOGOBERRY FLAMENGO     RIO DE JANEIR BR                8,00        0,00
+12.12.2024CASA DAS NATAS         RIO DE JANEIR BR               26,29        0,00
+                                                     
+ 
+         Saúde                                       
+09.12.2024PRONTO CPS COM PROD    RIO DE JANEIR BR              119,00        0,00
+09.12.2024DROGARIAS PACHECO SA   RIO DE JANEIR BR               85,93        0,00
+10.12.2024DROGAVET DR PET        RIO DE JANEIR BR               99,00        0,00
+10.12.2024DROGARIA VENANCIO      RIO DE JANEIR BR              145,77        0,00
+10.12.2024DROGARIAS PACHECO SA   RIO DE JANEIR BR              100,01        0,00
+11.12.2024DROGARIA VENANCIO      RIO DE JANEIR BR               36,44        0,00
+11.12.2024DROGARIA VENANCIO      RIO DE JANEIR BR               24,54        0,00
+11.12.2024DROGARIA VENANCIO      RIO DE JANEIR BR              272,91        0,00
+09.12.2024Drogarias Pacheco S.A. Rio d Janeiro BR               71,46        0,00
+12.12.2024Drogarias Pacheco S.A. Rio d Janeiro BR              128,02        0,00
+16.12.2024DROGARIAS PACHECO SA   RIO DE JANEIR BR              223,23        0,00
+16.12.2024Drogarias Pacheco S.A. Rio d Janeiro BR               39,89        0,00
+21.12.2024DROGARIAS PACHECO SA   RIO DE JANEIR BR               78,19        0,00
+23.12.2024RAIA1940               RIO DE JANEIR BR               16,22        0,00
+23.12.2024RAIA1940               RIO DE JANEIR BR               31,02        0,00
+23.12.2024DROGARIAS PACHECO SA   RIO DE JANEIR BR               18,99        0,00
+                                                     
+ 
+         Serviços                                    
+09.12.2024PETZ                   EMBU DAS ARTE BR              567,77        0,00
+10.12.2024MERCADOLIVRE*LK3       OSASCO        BR               53,82        0,00
+10.12.2024Vindi  *NaturalMystic  Vinhedo       BR               52,56        0,00
+11.12.2024DAISO BRASIL           RIO DE JANEIR BR               10,99        0,00
+13.12.2024DOUTOR SILVESTRE       RIO DE JANEIR BR              295,00        0,00
+14.12.2024UTILICASA              RIO DE JANEIR BR               33,93        0,00
+14.12.2024UTILICASA              RIO DE JANEIR BR                9,99        0,00
+14.12.2024UTILICASA              RIO DE JANEIR BR               14,98        0,00
+20.12.2024SEBASTIAN COIFFEUR     RIO DE JANEIR BR              285,00        0,00
+20.12.2024PELO ZERO LG DO MACHAD RIO DE JANEIR BR              110,00        0,00
+21.12.2024PETZ                   EMBU DAS ARTE BR               40,79        0,00
+22.12.2024PETZ                   EMBU DAS ARTE BR               72,70        0,00
+25.12.2024MP*EJOB                BELO HORIZONT BR               29,90        0,00
+                                                     
+ 
+         Supermercados                               
+10.12.2024SUPERMERCADO ULTRA 11  RIO DE JANEIR BR              120,42        0,00
+                                                     
+ 
+         Transporte                                  
+11.12.2024UBER* TRIP             OSASCO        BR               13,06        0,00
+11.12.2024UBER* TRIP             OSASCO        BR               12,56        0,00
+12.12.2024UBER* TRIP             OSASCO        BR               18,97        0,00
+15.12.2024UBER* TRIP             WWW.UBER.COM. BR               65,95        0,00
+17.12.2024UBER* TRIP             WWW.UBER.COM. BR               29,95        0,00
+17.12.2024UBER* TRIP             OSASCO        BR               17,94        0,00
+                                                     
+ 
+         Vestuário                                   
+11.12.2024CEA RSS 546 ECPC       RIO DE JANEIR BR              229,98        0,00
+                                                     
+ 
+         Viagens                                     
+23.12.2024AF INTERNET 02329945299SAO PAULO     BR               52,81        0,00
+                                                     
+ 
+         Outros lançamentos                          
+24.12.2024ANUIDADE DIFERENCIADA ADC-PARC 02/12 BR               22,75        0,00
+                                                     
+ 
+         SubTotal                                           3.686,73        0,00
+                                                     
+ 
+         Total                                              3.964,21        0,00
+ 
+ 
+RESUMO EM REAL
+--------------------------------------------------------------------------------
+   Saldo      Pagamento/    Compras/       Total     Lim. extra         Saldo   
+  Anterior     Créditos     Débitos          R$       utilizado      Atual - R$ 
+--------------------------------------------------------------------------------
+  1.527,13 -  -1.527,13 +   3.964,21 =    3.964,21 -       0,00 =       3.964,21
+--------------------------------------------------------------------------------
+ 
+RESUMO EM DÓLAR
+--------------------------------------------------------------------------------
+  Compras/     Outros                      Saldo       Taxa de         Saldo    
+   Saques      débitos      Créditos      Atual U$    conversão      convertido 
+--------------------------------------------------------------------------------
+     21,50 -       0,00 +       0,00 =       21,50   X   6,4003 =         137,29
+--------------------------------------------------------------------------------
+ 
+ 
+LIMITES - R$
+--------------------------------------------------------------------------------
+Total para transações à vista        : 50.000,00
+Saques                               : 50.000,00
+(Incluido no total transação à vista)
+Total para transações parceladas     :    0,00
+Crediário                            : 115.459,00
+ 
+ 
+ENCARGOS FINANCEIROS - R$              1         2
+--------------------------------------------------------------------------------
+Crédito Rotativo :                 12,27     14,16
+Crédito Parcelado:                  3,64     10,21
+Permanência      :                  1,00      1,00
+Multa            :                  2,00      2,00
+1. Para o periodo %am         
+2. Máximo próximo periodo %am 
+ 
+ 
+PONTO PRA VOCÊ/LIVELO
+--------------------------------------------------------------------------------
+    Pontuação acumulada Até 24.12.2024 :  24.838
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
