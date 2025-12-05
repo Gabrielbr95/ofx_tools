@@ -25,13 +25,13 @@ def run(
     txt_txs = load_all_txt(data_dir)
 
     typer.echo("Carregando transações OFX...")
-    ofx_txs = load_all_ofx(data_dir)
+    ofx_txs, acctid_map = load_all_ofx(data_dir)
 
     typer.echo("Mesclando transações...")
     merged = merge_transactions(ofx_txs, txt_txs)
 
     typer.echo("Exportando arquivos OFX separados por usuário...")
-    export_ofx(merged, data_dir, output_dir)
+    export_ofx(merged, data_dir, output_dir, acctid_map)
 
     typer.echo("Processo concluído!")
 

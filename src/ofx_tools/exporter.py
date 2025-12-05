@@ -11,7 +11,7 @@ CARD_MAP = {
     "6550000000007799": "elo",
 }
 
-def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir: Path):
+def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir: Path, acctid_map: dict):
     """
     Gera arquivos OFX separados por usuário (Gabriel, Carol e sem usuário).
     Usa o primeiro arquivo OFX encontrado em data_dir como base.
@@ -36,12 +36,25 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
     """
     # Para cada grupo de usuário, gera um novo arquivo
     for card, user_dict in user_groups.items():
+        # Pega arquivo base a partir do dicionário
+        base_ofx_path = acctid_map.get(card)
+        if not base_ofx_path:
+            print(f"Base OFX não encontrada para cartão {card}, pulando...")
+            continue
+        
+        # Lê OFX base
+        with open(base_ofx_path, "rb") as f:
+            tree = OFXTree()
+            tree.parse(f)
+            base_ofx = tree.convert()
+
+
         for user, txs in user_dict.items():
             if not txs:
                 continue  # ignora grupo vazio
 
             # Cria cópia do OFX base
-            new_ofx = find_ofx_by_acctid(data_dir, card)
+            new_ofx = base_ofx
 
             # Limpa todas as transações existentes
             for stmt in new_ofx.statements:
@@ -65,20 +78,3 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
             tree.write(output_file, encoding="utf-8", xml_declaration=True)
 
             print(f"Arquivo gerado: {output_file}")
-
-
-def find_ofx_by_acctid(data_dir: Path, acctid: str) -> Path:
-    """
-    Procura na pasta data_dir o primeiro arquivo OFX que contenha o ACCTID informado.
-    """
-
-    for path in data_dir.glob("*.ofx"):
-        with open(path, "rb") as f:
-            tree = OFXTree()
-            tree.parse(f)
-            ofx = tree.convert()
-        # Itera pelos statements (cartões)
-        for stmt in ofx.statements:
-            if stmt.ccacctfrom.acctid == acctid:
-                return ofx
-    raise FileNotFoundError(f"Nenhum OFX encontrado com ACCTID {acctid}")
