@@ -15,6 +15,7 @@ class TransactionOfx:
     description: str
     amount: float
     raw: any  # aponta para o objeto ofxtools original
+    account_id: any
 
 @dataclass
 class MergedTransaction:

@@ -21,7 +21,8 @@ def parse_ofx_file(path):
                     date=trn.dtposted.date(),       # ofxtools já converte para datetime
                     description=trn.memo or getattr(trn, "name", ""),
                     amount=float(trn.trnamt),      # pode ser float ou Decimal
-                    raw=trn                         # objeto original ofxtools
+                    raw=trn,                         # objeto original ofxtools
+                    account_id=stmt.ccacctfrom.acctid
                 )
             )
 
