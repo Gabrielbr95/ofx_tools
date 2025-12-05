@@ -22,18 +22,18 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
         card = mtx.tx_ofx.account_id
         user = mtx.user or "sem_usuario"
         user_groups.setdefault(card, {}).setdefault(user, []).append(mtx.tx_ofx)
-
+    """
     # Pega o primeiro OFX como base
     base_ofx_path = next(data_dir.glob("*.ofx"), None)
     if not base_ofx_path:
         raise FileNotFoundError("Nenhum arquivo OFX encontrado em data_dir")
-
+    
     # Lê o OFX base
     with open(base_ofx_path, "rb") as f:
         tree = OFXTree()
         tree.parse(f)
         base_ofx = tree.convert()
-
+    """
     # Para cada grupo de usuário, gera um novo arquivo
     for card, user_dict in user_groups.items():
         for user, txs in user_dict.items():
@@ -41,7 +41,7 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
                 continue  # ignora grupo vazio
 
             # Cria cópia do OFX base
-            new_ofx = base_ofx
+            new_ofx = find_ofx_by_acctid(data_dir, card)
 
             # Limpa todas as transações existentes
             for stmt in new_ofx.statements:
@@ -65,3 +65,20 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
             tree.write(output_file, encoding="utf-8", xml_declaration=True)
 
             print(f"Arquivo gerado: {output_file}")
+
+
+def find_ofx_by_acctid(data_dir: Path, acctid: str) -> Path:
+    """
+    Procura na pasta data_dir o primeiro arquivo OFX que contenha o ACCTID informado.
+    """
+
+    for path in data_dir.glob("*.ofx"):
+        with open(path, "rb") as f:
+            tree = OFXTree()
+            tree.parse(f)
+            ofx = tree.convert()
+        # Itera pelos statements (cartões)
+        for stmt in ofx.statements:
+            if stmt.ccacctfrom.acctid == acctid:
+                return ofx
+    raise FileNotFoundError(f"Nenhum OFX encontrado com ACCTID {acctid}")
