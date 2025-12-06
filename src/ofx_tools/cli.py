@@ -1,10 +1,10 @@
 from pathlib import Path
 import typer
 from .loader import load_all_ofx, load_all_txt
-from .merger import merge_transactions
+from .merger import merge_transactions, export_merged_csv
 from .exporter import export_ofx
 
-app = typer.Typer(help="Ferramenta para processar arquivos OFX e TXT, gerar OFX por usuário.")
+app = typer.Typer(help="Ferramenta para processar arquivos OFX e TXT, gerar OFX por usuário.", pretty_exceptions_enable=False)
 
 DEFAULT_DATA_DIR = Path(__file__).parent.parent.parent / "data"
 DEFAULT_OUTPUT_DIR = Path(__file__).parent.parent.parent / "output"
@@ -29,6 +29,8 @@ def run(
 
     typer.echo("Mesclando transações...")
     merged = merge_transactions(ofx_txs, txt_txs)
+
+    export_merged_csv(merged, output_path=output_dir)
 
     typer.echo("Exportando arquivos OFX separados por usuário...")
     export_ofx(merged, data_dir, output_dir, acctid_map)

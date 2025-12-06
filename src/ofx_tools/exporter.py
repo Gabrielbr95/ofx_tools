@@ -22,18 +22,7 @@ def export_ofx(merged_list: list[MergedTransaction], data_dir: Path, output_dir:
         card = mtx.tx_ofx.account_id
         user = mtx.user or "sem_usuario"
         user_groups.setdefault(card, {}).setdefault(user, []).append(mtx.tx_ofx)
-    """
-    # Pega o primeiro OFX como base
-    base_ofx_path = next(data_dir.glob("*.ofx"), None)
-    if not base_ofx_path:
-        raise FileNotFoundError("Nenhum arquivo OFX encontrado em data_dir")
-    
-    # Lê o OFX base
-    with open(base_ofx_path, "rb") as f:
-        tree = OFXTree()
-        tree.parse(f)
-        base_ofx = tree.convert()
-    """
+
     # Para cada grupo de usuário, gera um novo arquivo
     for card, user_dict in user_groups.items():
         # Pega arquivo base a partir do dicionário
